@@ -1,3 +1,7 @@
+body{
+  margin:0;
+}
+
 
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -84,5 +88,41 @@
     left: 55%;
     transform: translate(-50%, -50%);
   }
+
+
+  /*-------------------- Hero Image CSS ---------------------*/
+
+  body, html {
+    height: 100%;
+}
+
+.content{
+  position: relative;
+  height: 100%;
+  width: 87%;
+  left:14%;
+  top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background2.jpg");
+  position: relative;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 90%;
+}
+/* The hero image */
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
 
 
