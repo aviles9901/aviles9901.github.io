@@ -7,7 +7,7 @@ body{
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 250px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
+    z-index: 10; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #C0C0C0; /* Black */
@@ -15,9 +15,9 @@ body{
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-/*     border-style: none solid none none;
+    border-style: none solid none none;
     border-width: 5px;
-    border-color: #3e3e3e; */
+    border-color: #3e3e3e;
   }
 
   /* The navigation menu links */
@@ -99,18 +99,24 @@ body{
 .content{
   position: relative;
   height: 100%;
-  width: 87%;
+  width: 86%;
   left:14%;
   top: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background2.jpg");
+
+}
+/* The hero image */
+.hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background3.jpg");
   position: relative;  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
 }
-/* The hero image */
-
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -121,7 +127,72 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif"; 
+  font-size: 30px;
+  z-index: 3;
 }
+
+/*Add Gradient at the bottom of the image*/
+.grad{
+  margin-top: auto;
+  background-image: linear-gradient(#252525, white);
+  height: 300px;
+  z-index: 1;
+}
+
+/* Write then delete a word */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
+
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feature-text {
+  margin-left: 8px;
+}
+
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: white;
+  animation: blink .6s linear infinite alternate;
+}
+
+
+@keyframes blink {
+0% {opacity: 1;}
+40% {opacity: 1;}
+60% {opacity: 0;}
+100% {opacity: 0;}
+}
+
+/*----------- Style button------------*/
+
+.content button{
+  background-color: #C0C0C0;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif";
+  margin-top: 17.66px;
+}
+
+.center-text{
+  text-align: center;
+}
+
+
+
+
 
 
 
