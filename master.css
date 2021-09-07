@@ -78,7 +78,7 @@ body{
   .container {
     position: relative;
     text-align: center;
-    color: #C0C0C0;
+    color: white;
     font-size: 100px;
   }
 
@@ -135,8 +135,8 @@ body{
 /*Add Gradient at the bottom of the image*/
 .grad{
   margin-top: auto;
-  background-image: linear-gradient(#252525, white);
-  height: 300px;
+  background-image: linear-gradient(#252525, 10%,white);
+  height: 100px;
   z-index: 1;
 }
 
@@ -190,8 +190,121 @@ body{
   text-align: center;
 }
 
+/*----------- About Style ---------------*/
+
+.About {
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif";
+
+}
+
+.About h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+.About p{
+  font-size: 26px;
+  text-align: center;
+  max-width: 50%;
+  padding-left: 25%;
+  padding-top: 30px;
+}
 
 
+/*-------- Experience Styling --------------- */
+
+.Experience {
+  padding-top: 20px;
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif";
+}
+
+.Experience h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+/*-------- Projects Styling -------------- */
+
+.Projects {
+  padding-top: 20px;
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif";
+}
+
+.Projects h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+/*-------- Education Styling --------------*/
+
+.Education {
+  padding-top: 20px;
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif";
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 0.6fr 0.1fr;
+  grid-gap: 20px;
+  padding-left: 25%;
+  max-width: 50%;
+}
+.Education h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+.Education h2{
+  color: #3e3e3e;
+  text-align: left;
+  margin: 5px;
+
+}
+
+.Education img{
+  position: relative;
+  padding:5px;
+  left: 350px;
+  text-align: right;
+}
+
+.Education p{
+  padding-left: 25%;
+  color:#3e3e3e;
+  text-align: left;
+  margin:5px;
+}
+
+/*----------- Interests Styling ----------------*/
+
+.Interests {
+  padding-top: 20px;
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif";
+}
+
+.Interests h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+
+/*----------- Get in Touch Styling ----------------*/
+
+.OtherLinks {
+  padding-top: 20px;
+  font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif";
+}
+
+.OtherLinks h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
 
 
 
