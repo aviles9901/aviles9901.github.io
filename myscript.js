@@ -1,7 +1,7 @@
 const carouselText = [
     {text: "Developer ", color: "white"},
     {text: "Problem Solver ", color: "white"},
-    {text: "Something ", color: "white"}
+    {text: "Cynthia's Kitten ", color: "white"}
   ]
   
   $( document ).ready(async function() {
