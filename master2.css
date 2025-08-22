@@ -12,7 +12,7 @@ body, html {
   height: 100%;
   width: 86%;
   left:14%;
-  top: 0;
+  top: 10%;
 
 }
 
@@ -87,8 +87,8 @@ ul2 {
 ul1 {
 	 position: absolute;
 	 top: 5%;
-	 left: 80%;
-	 transform: translate(-50%, -50%);
+	 right: 50px;
+	 transform: translate(-10%, -50%);
 	 display: flex;
      
 }
@@ -150,16 +150,28 @@ ul1 li a:hover:before {
 
 /* Place text in the middle of the image */
 .hero-text {
-  position: absolute;
+  position: relative;
   margin: auto;
-  text-align: center;
-  top: 20%;
-  left: 15%;
+  text-align: left;
+  padding-left: 900px;
+  top: 250px;
+  left: 150px;
   transform: translate(-50%, -50%);
   color: white;
   font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,"sans-serif"; 
   font-size: 25px;
   z-index: 3;
+}
+
+.hero-text h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
 }
 
 /* Write then delete a word */
